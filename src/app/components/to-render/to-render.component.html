@@ -1,0 +1,11 @@
+<div style="border: 1px solid;">
+  <h2>to-render works! The detail snackbar.</h2>
+  <h3>This is just to render the button to open the modal and pass the info below as a config for the modal.The info gets copied here first</h3>
+  
+  <p> {{message | json}} received from outside</p>
+  <p> {{action | json}} received from outside</p>
+  <p> {{buildings | json}} received from outside</p>
+<button (click)="openModalThatCameAsComponent()"  class="btn btn-lg btn-outline-primary">Open Details Modal</button>
+</div>
+
+
